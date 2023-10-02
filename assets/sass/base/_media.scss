@@ -1,0 +1,72 @@
+@use '../base/typhography';
+
+@media only screen and (max-width: 769px) {
+    .intro {
+      text-align: center;
+    }
+    .partner-section {
+      .brand {
+        justify-content: center;
+      }
+    }
+    .footer {
+      ul {
+        border-bottom: 0.8px solid #ddd;
+        list-style-type: none;
+        li {
+          color: var(--fontsecondary, #666);
+          font-weight: 500;
+          padding-bottom: 0.75rem;
+          display: block;
+        }
+      }
+    }
+  }
+  @media only screen and (min-width: 1200px) {
+    .section-graph {
+      margin-top: -4rem;
+    }
+  }
+  @media only screen and (max-width: 1200px) {
+    .section-graph {
+      margin-top: 5px;
+    }
+    .trade-section {
+      .input-trade {
+        width: 200px !important;
+        height: 60px !important;
+      }
+      .dropdown-trade {
+        .btn {
+          width: 150px !important;
+          height: 60px !important;
+        }
+      }
+    }
+    .partner-section {
+      .brand {
+        width: 225px;
+        height: 108px;
+      }
+    }
+    .arrow {
+        display: none;
+      }
+  }
+  @media only screen and (min-width: 768px) {
+    .footer {
+      ul {
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+        border-right: 0.8px solid #ddd;
+        list-style-type: none;
+        li {
+          color: var(--fontsecondary, #666);
+          font-weight: 500;
+          padding-bottom: 0.75rem;
+          display: block;
+        }
+      }
+    }
+  }
+ 

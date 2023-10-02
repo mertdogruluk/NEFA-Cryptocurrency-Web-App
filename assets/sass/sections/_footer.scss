@@ -1,0 +1,18 @@
+.footer {
+    border-bottom: 0.8px solid #ddd;
+    border-top: 0.8px solid #ddd;
+    margin-bottom: 2rem;
+    margin-top: 3rem;
+  
+    .logo-footer {
+      padding-top: 3rem;
+      padding-bottom: 3rem;
+    }
+  
+    .contact {
+      padding-top: 3rem;
+    }
+    .form-control {
+      direction: rtl;
+    }
+  }

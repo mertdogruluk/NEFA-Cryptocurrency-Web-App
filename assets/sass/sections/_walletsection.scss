@@ -1,0 +1,14 @@
+.wallet-section {
+    .container {
+      padding-top: 3rem;
+      .support {
+        background: var(
+          --gra-blue,
+          linear-gradient(133deg, #468ef9 0%, #0c66ee 100%)
+        );
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+      }
+    }
+  }

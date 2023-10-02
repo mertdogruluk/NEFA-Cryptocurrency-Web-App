@@ -1,0 +1,15 @@
+.cashbox-section {
+    .sub-heading {
+      display: flex;
+      align-items: center;
+      font-size: 18px;
+      font-weight: 500;
+      &::before {
+        width: 20px;
+        height: 20px;
+        content: "";
+        display: block;
+        background-image: url(../images/check-circle.svg);
+      }
+    }
+  }

@@ -1,0 +1,65 @@
+@use "../abstracts/mixins";
+@use "../abstracts/variables";
+
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+.form-control,
+.form-select {
+  border-radius: 1.25rem;
+}
+.recent {
+  border-left: 1px solid;
+  border-color: #eaeaea;
+}
+.text-gradient {
+  background: var(
+    --gra-blue-2,
+    linear-gradient(
+      134deg,
+      #3984f4 0%,
+      #0cd3ff 39.06%,
+      #2f7cf0 76.56%,
+      #0e65e8 100%
+    )
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.sign {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: variables.$color-primary;
+}
+.col-header {
+    font-size: 1.25rem;
+    padding-bottom: 1rem;
+  }
+  .trending {
+    border-right: 1px solid;
+    border-color: #eaeaea;
+  
+    .graphs {
+      .coins {
+        .plus {
+          &::first-letter {
+            color: #28c165;
+          }
+        }
+        .minus {
+          &::first-letter {
+            color: #f4574d;
+          }
+        }
+      }
+      .thead {
+        font-size: 1rem;
+        font-weight: 400;
+      }
+    }
+  }
+  .more-link {
+    text-decoration: none;
+  }

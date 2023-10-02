@@ -1,0 +1,13 @@
+@use "../abstracts/variables";
+
+.partner-section {
+  .container {
+    padding-top: 4rem;
+
+    .brand {
+      background-color: transparent;
+    }
+    @extend .noisy-bg;
+    border-radius: 40px;
+  }
+}

@@ -1,0 +1,10 @@
+$color-primary: #468ef9;
+.noisy-bg {
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0.7) 0%,
+    rgba(244, 249, 255, 0.1) 0%,
+    rgba(244, 249, 255, 0.7) 100%
+  );
+  background-image: url("../images/noisy-bg.svg");
+}

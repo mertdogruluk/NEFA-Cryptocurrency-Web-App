@@ -1,0 +1,32 @@
+@use '../abstracts/variables';
+
+.tools-section {
+    margin-top: 6rem;
+    @extend .noisy-bg;
+  
+    .text-col {
+      padding-right: 4rem;
+    }
+    span {
+      background: var(
+        --gra-blue-2,
+        linear-gradient(
+          134deg,
+          #3984f4 0%,
+          #0cd3ff 39.06%,
+          #2f7cf0 76.56%,
+          #0e65e8 100%
+        )
+      );
+      background-clip: text;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+    .sub-heading {
+      font-size: 18px;
+      font-weight: 500;
+    }
+    .btn {
+      padding: 1rem;
+    }
+  }

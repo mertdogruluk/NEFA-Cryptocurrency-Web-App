@@ -1,0 +1,36 @@
+.card-section {
+    margin-top: 6rem;
+    .img-col {
+      padding-right: 4rem;
+    }
+    .nefa-gradient {
+      background: var(
+        --gra-blue-2,
+        linear-gradient(
+          134deg,
+          #3984f4 0%,
+          #0cd3ff 39.06%,
+          #2f7cf0 76.56%,
+          #0e65e8 100%
+        )
+      );
+      background-clip: text;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+    ul {
+      list-style-type: none;
+      padding-left: 0;
+      li {
+        display: flex;
+  
+        &::before {
+          width: 20px;
+          height: 20px;
+          content: "";
+          display: block;
+          background-image: url(../images/check-circle.svg);
+        }
+      }
+    }
+  }

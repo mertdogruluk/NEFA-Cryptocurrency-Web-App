@@ -1,0 +1,33 @@
+@use '../abstracts/variables';
+
+.trade-section {
+
+
+    .input-trade {
+      span {
+        color: variables.$color-primary;
+        border-right: 1px solid variables.$color-primary;
+      }
+      input {
+        text-align: end;
+        flex: 1;
+        align-self: stretch;
+        border: none;
+        outline: none;
+        background-color: transparent;
+      }
+      width: 336px;
+      height: 80px;
+      border: 1px solid variables.$color-primary;
+      border-radius: 22px;
+    }
+    .dropdown-trade {
+      .btn {
+        width: 199px;
+        height: 80px;
+        padding: 10px;
+        border-radius: 22px;
+        border: 1px solid variables.$color-primary;
+      }
+    }
+  }

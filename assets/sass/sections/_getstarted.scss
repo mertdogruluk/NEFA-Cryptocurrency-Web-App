@@ -1,0 +1,21 @@
+@use '../abstracts/variables';
+.get-started {
+    @extend .noisy-bg;
+    .container {
+      padding-top: 3rem;
+      .row {
+        align-items: flex-start;
+      }
+      .images {
+        position: relative;
+  
+        .arrow {
+          position: absolute;
+          width: 50%;
+          right: 0;
+          top: 50%;
+          transform: translate(100%);
+        }
+      }
+    }
+  }

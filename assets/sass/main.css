@@ -1,0 +1,280 @@
+.noisy-bg, .get-started, .tools-section, .partner-section .container {
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.7) 0%, rgba(244, 249, 255, 0.1) 0%, rgba(244, 249, 255, 0.7) 100%);
+  background-image: url("../images/noisy-bg.svg");
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.form-control,
+.form-select {
+  border-radius: 1.25rem;
+}
+
+.recent {
+  border-left: 1px solid;
+  border-color: #eaeaea;
+}
+
+.text-gradient {
+  background: var(--gra-blue-2, linear-gradient(134deg, #3984f4 0%, #0cd3ff 39.06%, #2f7cf0 76.56%, #0e65e8 100%));
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.sign {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: #468ef9;
+}
+
+.col-header {
+  font-size: 1.25rem;
+  padding-bottom: 1rem;
+}
+
+.trending {
+  border-right: 1px solid;
+  border-color: #eaeaea;
+}
+.trending .graphs .coins .plus::first-letter {
+  color: #28c165;
+}
+.trending .graphs .coins .minus::first-letter {
+  color: #f4574d;
+}
+.trending .graphs .thead {
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+.more-link {
+  text-decoration: none;
+}
+
+@media only screen and (max-width: 769px) {
+  .intro {
+    text-align: center;
+  }
+  .partner-section .brand {
+    justify-content: center;
+  }
+  .footer ul {
+    border-bottom: 0.8px solid #ddd;
+    list-style-type: none;
+  }
+  .footer ul li {
+    color: var(--fontsecondary, #666);
+    font-weight: 500;
+    padding-bottom: 0.75rem;
+    display: block;
+  }
+}
+@media only screen and (min-width: 1200px) {
+  .section-graph {
+    margin-top: -4rem;
+  }
+}
+@media only screen and (max-width: 1200px) {
+  .section-graph {
+    margin-top: 5px;
+  }
+  .trade-section .input-trade {
+    width: 200px !important;
+    height: 60px !important;
+  }
+  .trade-section .dropdown-trade .btn {
+    width: 150px !important;
+    height: 60px !important;
+  }
+  .partner-section .brand {
+    width: 225px;
+    height: 108px;
+  }
+  .arrow {
+    display: none;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .footer ul {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    border-right: 0.8px solid #ddd;
+    list-style-type: none;
+  }
+  .footer ul li {
+    color: var(--fontsecondary, #666);
+    font-weight: 500;
+    padding-bottom: 0.75rem;
+    display: block;
+  }
+}
+.trade-section .input-trade {
+  width: 336px;
+  height: 80px;
+  border: 1px solid #468ef9;
+  border-radius: 22px;
+}
+.trade-section .input-trade span {
+  color: #468ef9;
+  border-right: 1px solid #468ef9;
+}
+.trade-section .input-trade input {
+  text-align: end;
+  flex: 1;
+  align-self: stretch;
+  border: none;
+  outline: none;
+  background-color: transparent;
+}
+.trade-section .dropdown-trade .btn {
+  width: 199px;
+  height: 80px;
+  padding: 10px;
+  border-radius: 22px;
+  border: 1px solid #468ef9;
+}
+
+.partner-section .container {
+  padding-top: 4rem;
+  border-radius: 40px;
+}
+.partner-section .container .brand {
+  background-color: transparent;
+}
+
+.card-section {
+  margin-top: 6rem;
+}
+.card-section .img-col {
+  padding-right: 4rem;
+}
+.card-section .nefa-gradient {
+  background: var(--gra-blue-2, linear-gradient(134deg, #3984f4 0%, #0cd3ff 39.06%, #2f7cf0 76.56%, #0e65e8 100%));
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.card-section ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+.card-section ul li {
+  display: flex;
+}
+.card-section ul li::before {
+  width: 20px;
+  height: 20px;
+  content: "";
+  display: block;
+  background-image: url(../images/check-circle.svg);
+}
+
+.tools-section {
+  margin-top: 6rem;
+}
+.tools-section .text-col {
+  padding-right: 4rem;
+}
+.tools-section span {
+  background: var(--gra-blue-2, linear-gradient(134deg, #3984f4 0%, #0cd3ff 39.06%, #2f7cf0 76.56%, #0e65e8 100%));
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.tools-section .sub-heading {
+  font-size: 18px;
+  font-weight: 500;
+}
+.tools-section .btn {
+  padding: 1rem;
+}
+
+.cashbox-section .sub-heading {
+  display: flex;
+  align-items: center;
+  font-size: 18px;
+  font-weight: 500;
+}
+.cashbox-section .sub-heading::before {
+  width: 20px;
+  height: 20px;
+  content: "";
+  display: block;
+  background-image: url(../images/check-circle.svg);
+}
+
+.get-started .container {
+  padding-top: 3rem;
+}
+.get-started .container .row {
+  align-items: flex-start;
+}
+.get-started .container .images {
+  position: relative;
+}
+.get-started .container .images .arrow {
+  position: absolute;
+  width: 50%;
+  right: 0;
+  top: 50%;
+  transform: translate(100%);
+}
+
+.wallet-section .container {
+  padding-top: 3rem;
+}
+.wallet-section .container .support {
+  background: var(--gra-blue, linear-gradient(133deg, #468ef9 0%, #0c66ee 100%));
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.footer {
+  border-bottom: 0.8px solid #ddd;
+  border-top: 0.8px solid #ddd;
+  margin-bottom: 2rem;
+  margin-top: 3rem;
+}
+.footer .logo-footer {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+.footer .contact {
+  padding-top: 3rem;
+}
+.footer .form-control {
+  direction: rtl;
+}
+
+.navbar-text {
+  display: inline-block;
+  flex-direction: row;
+}
+.navbar-text .btn {
+  border-radius: 2.5rem;
+}
+
+.section-hero::after {
+  content: " ";
+  height: 100%;
+  width: 100%;
+  top: 0;
+  position: absolute;
+  z-index: -1;
+  opacity: 0.1;
+  background: var(--gra-blue-2, linear-gradient(134deg, #3984f4 0%, #0cd3ff 39.06%, #2f7cf0 76.56%, #0e65e8 100%));
+}
+
+.back-to-top a button {
+  padding: 10px;
+  border-radius: 12px;
+  border: 1px solid #ddd;
+  background: #fafafa;
+}
+.back-to-top a button .content {
+  color: #666666;
+}/*# sourceMappingURL=main.css.map */

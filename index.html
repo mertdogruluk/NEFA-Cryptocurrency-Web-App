@@ -1,0 +1,1295 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>NEFA - Cryptocurrency Web App</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="assets/sass/main.css" />
+  </head>
+  <body>
+    <section class="section-hero position-relative" id="page-top">
+      <nav class="navbar navbar-expand-lg">
+        <div class="container mt-3">
+          <a class="navbar-brand" href="#">
+            <img src="assets/images/nefa-logo.svg" alt="" />
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarText"
+            aria-controls="navbarText"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarText">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0 gap-3">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#"
+                  >Crytocurrency</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Exchanges</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Watchlist</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">NFT</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Portfolio</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Dropdown
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><hr class="dropdown-divider" /></li>
+                  <li>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+            <span class="navbar-text d-flex">
+              <button type="button" class="btn btn-outline-primary px-4 me-2">
+                Log In
+              </button>
+              <button type="button" class="btn btn-primary px-4 me-2">
+                Sign Up
+              </button>
+            </span>
+          </div>
+        </div>
+      </nav>
+      <section>
+        <div class="container">
+          <div class="row align-items-center justify-content-center">
+            <div class="intro col-12 col-md-6">
+              <span class="sign">SIGN UP TODAY</span>
+              <h1 class="display-3 fw-bold mt-3">
+                The World’s
+                <span class="text-gradient">Fastest Growing</span> Crypto Web
+                App
+              </h1>
+              <p class="my-4 text-black-50">
+                Buy and sell 200+ cryptocurrencies with 20+ flat currencies
+                using bank transfers or your credit/debit card.
+              </p>
+              <div>
+                <button
+                  type="button"
+                  class="btn btn-primary px-4 me-2 py-2 rounded-pill"
+                >
+                  Get Started
+                </button>
+                <div class="btn-group">
+                  <button
+                    type="button"
+                    class="btn btn-outline-primary dropdown-toggle rounded-pill py-2"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    Download App
+                  </button>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Action</a></li>
+                    <li>
+                      <a class="dropdown-item" href="#">Another action</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#">Something else here</a>
+                    </li>
+                    <li><hr class="dropdown-divider" /></li>
+                    <li>
+                      <a class="dropdown-item" href="#">Separated link</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="d-none d-md-inline-block col-6">
+              <div>
+                <img class="img-fluid" src="assets/images/12 1.svg" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </section>
+    <section class="section-graph position-relative">
+      <div class="container bg-white shadow-sm rounded-4 my-5 py-4">
+        <div class="row">
+          <div class="trending col-12 col-xl-4">
+            <div class="d-flex justify-content-between">
+              <span class="col-header">🔥 Trending</span>
+              <a class="more-link" href="">More ></a>
+            </div>
+            <div class="graphs">
+              <table style="width: 100%">
+                <tr>
+                  <th class="thead text-black-50">Name</th>
+                  <th class="thead text-black-50">Price</th>
+                  <th class="thead text-black-50">Chart</th>
+                </tr>
+                <tr class="coins">
+                  <td>
+                    <img
+                      class="pe-2"
+                      src="assets/images/btc.png"
+                      alt=""
+                    />Bitcoin
+                  </td>
+                  <td class="plus">+ $43,180.13</td>
+                  <td>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="115"
+                      height="42"
+                      viewBox="0 0 115 42"
+                      fill="none"
+                    >
+                      <path
+                        d="M21 14.4998C12.6274 10.1939 2 28.4998 1 25.9998V41.9998H114.5V25.9998C102 19.9998 100.5 1.49984 90.5 7.99978C80.5 14.4997 74.5 5.49984 60 1.49984C45.5 -2.50016 38.5 23.4997 21 14.4998Z"
+                        fill="url(#paint0_linear_1_149)"
+                      />
+                      <path
+                        d="M1 25.9998C2 28.4998 12.6274 10.1939 21 14.4998C38.5 23.4997 45.5 -2.50016 60 1.49984C74.5 5.49984 80.5 14.4997 90.5 7.99978C100.5 1.49984 102 19.9998 114.5 25.9998"
+                        stroke="#28C165"
+                      />
+                      <defs>
+                        <linearGradient
+                          id="paint0_linear_1_149"
+                          x1="57.75"
+                          y1="-3.50024"
+                          x2="57.75"
+                          y2="39.4998"
+                          gradientUnits="userSpaceOnUse"
+                        >
+                          <stop stop-color="#5FDF92" />
+                          <stop
+                            offset="0.0001"
+                            stop-color="#5FDF92"
+                            stop-opacity="0.8"
+                          />
+                          <stop
+                            offset="1"
+                            stop-color="#C4C4C4"
+                            stop-opacity="0"
+                          />
+                          <stop
+                            offset="1"
+                            stop-color="#C4C4C4"
+                            stop-opacity="0"
+                          />
+                          <stop
+                            offset="1"
+                            stop-color="#5FDF92"
+                            stop-opacity="0"
+                          />
+                        </linearGradient>
+                      </defs>
+                    </svg>
+                  </td>
+                </tr>
+                <tr class="coins">
+                  <td>
+                    <img
+                      class="pe-2"
+                      src="assets/images/ethereum.png"
+                      alt=""
+                    />Ethereum
+                  </td>
+                  <td class="minus">- $3,480.65</td>
+                  <td>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="115"
+                      height="44"
+                      viewBox="0 0 115 44"
+                      fill="none"
+                    >
+                      <path
+                        d="M20 17.9999C14.2991 25.4926 2 25.4216 1 22.9216V43.4999H114V3.49993C101.5 -2.50007 103 4.92159 93 11.4215C83 17.9215 71 -11.5001 59 6.99994C50.8145 19.6193 37.5 -5.00006 20 17.9999Z"
+                        fill="url(#paint0_linear_1_164)"
+                      />
+                      <path
+                        d="M1 22.9216C2 25.4216 14.2991 25.4926 20 17.9999C37.5 -5.00006 50.8145 19.6193 59 6.99994C71 -11.5001 83 17.9215 93 11.4215C103 4.92159 101.5 -2.50007 114 3.49993"
+                        stroke="#F4574D"
+                      />
+                      <defs>
+                        <linearGradient
+                          id="paint0_linear_1_164"
+                          x1="57.5"
+                          y1="0.798828"
+                          x2="57.5"
+                          y2="40.9999"
+                          gradientUnits="userSpaceOnUse"
+                        >
+                          <stop stop-color="#FFBDBD" />
+                          <stop
+                            offset="1"
+                            stop-color="#C4C4C4"
+                            stop-opacity="0"
+                          />
+                        </linearGradient>
+                      </defs>
+                    </svg>
+                  </td>
+                </tr>
+                <tr class="coins">
+                  <td>
+                    <img class="pe-2" src="assets/images/btc.png" alt="" />
+                    Bitcoin
+                  </td>
+                  <td class="plus">+ $43,180.13</td>
+                  <td>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="115"
+                      height="42"
+                      viewBox="0 0 115 42"
+                      fill="none"
+                    >
+                      <path
+                        d="M21 14.4998C12.6274 10.1939 2 28.4998 1 25.9998V41.9998H114.5V25.9998C102 19.9998 100.5 1.49984 90.5 7.99978C80.5 14.4997 74.5 5.49984 60 1.49984C45.5 -2.50016 38.5 23.4997 21 14.4998Z"
+                        fill="url(#paint0_linear_1_149)"
+                      />
+                      <path
+                        d="M1 25.9998C2 28.4998 12.6274 10.1939 21 14.4998C38.5 23.4997 45.5 -2.50016 60 1.49984C74.5 5.49984 80.5 14.4997 90.5 7.99978C100.5 1.49984 102 19.9998 114.5 25.9998"
+                        stroke="#28C165"
+                      />
+                      <defs>
+                        <linearGradient
+                          id="paint0_linear_1_149"
+                          x1="57.75"
+                          y1="-3.50024"
+                          x2="57.75"
+                          y2="39.4998"
+                          gradientUnits="userSpaceOnUse"
+                        >
+                          <stop stop-color="#5FDF92" />
+                          <stop
+                            offset="0.0001"
+                            stop-color="#5FDF92"
+                            stop-opacity="0.8"
+                          />
+                          <stop
+                            offset="1"
+                            stop-color="#C4C4C4"
+                            stop-opacity="0"
+                          />
+                          <stop
+                            offset="1"
+                            stop-color="#C4C4C4"
+                            stop-opacity="0"
+                          />
+                          <stop
+                            offset="1"
+                            stop-color="#5FDF92"
+                            stop-opacity="0"
+                          />
+                        </linearGradient>
+                      </defs>
+                    </svg>
+                  </td>
+                </tr>
+                <tr class="coins">
+                  <td>
+                    <img
+                      class="pe-2"
+                      src="assets/images/btc.png"
+                      alt=""
+                    />Bitcoin
+                  </td>
+                  <td class="plus">+ $43,180.13</td>
+                  <td>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="115"
+                      height="42"
+                      viewBox="0 0 115 42"
+                      fill="none"
+                    >
+                      <path
+                        d="M21 14.4998C12.6274 10.1939 2 28.4998 1 25.9998V41.9998H114.5V25.9998C102 19.9998 100.5 1.49984 90.5 7.99978C80.5 14.4997 74.5 5.49984 60 1.49984C45.5 -2.50016 38.5 23.4997 21 14.4998Z"
+                        fill="url(#paint0_linear_1_149)"
+                      />
+                      <path
+                        d="M1 25.9998C2 28.4998 12.6274 10.1939 21 14.4998C38.5 23.4997 45.5 -2.50016 60 1.49984C74.5 5.49984 80.5 14.4997 90.5 7.99978C100.5 1.49984 102 19.9998 114.5 25.9998"
+                        stroke="#28C165"
+                      />
+                      <defs>
+                        <linearGradient
+                          id="paint0_linear_1_149"
+                          x1="57.75"
+                          y1="-3.50024"
+                          x2="57.75"
+                          y2="39.4998"
+                          gradientUnits="userSpaceOnUse"
+                        >
+                          <stop stop-color="#5FDF92" />
+                          <stop
+                            offset="0.0001"
+                            stop-color="#5FDF92"
+                            stop-opacity="0.8"
+                          />
+                          <stop
+                            offset="1"
+                            stop-color="#C4C4C4"
+                            stop-opacity="0"
+                          />
+                          <stop
+                            offset="1"
+                            stop-color="#C4C4C4"
+                            stop-opacity="0"
+                          />
+                          <stop
+                            offset="1"
+                            stop-color="#5FDF92"
+                            stop-opacity="0"
+                          />
+                        </linearGradient>
+                      </defs>
+                    </svg>
+                  </td>
+                </tr>
+              </table>
+            </div>
+          </div>
+          <div class="col-12 col-xl-4">
+            <div class="d-flex justify-content-between">
+              <span class="col-header">🚀 Top Gainers</span>
+              <a class="more-link" href="">More ></a>
+            </div>
+            <div class="graphs">
+              <table style="width: 100%">
+                <tr>
+                  <th class="thead text-black-50">Name</th>
+                  <th class="thead text-black-50">Price</th>
+                  <th class="thead text-black-50">Chart</th>
+                </tr>
+                <tr class="coins">
+                  <td>
+                    <img
+                      class="pe-2"
+                      src="assets/images/btc.png"
+                      alt=""
+                    />Bitcoin
+                  </td>
+                  <td class="plus">+ $43,180.13</td>
+                  <td>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="115"
+                      height="42"
+                      viewBox="0 0 115 42"
+                      fill="none"
+                    >
+                      <path
+                        d="M21 14.4998C12.6274 10.1939 2 28.4998 1 25.9998V41.9998H114.5V25.9998C102 19.9998 100.5 1.49984 90.5 7.99978C80.5 14.4997 74.5 5.49984 60 1.49984C45.5 -2.50016 38.5 23.4997 21 14.4998Z"
+                        fill="url(#paint0_linear_1_149)"
+                      />
+                      <path
+                        d="M1 25.9998C2 28.4998 12.6274 10.1939 21 14.4998C38.5 23.4997 45.5 -2.50016 60 1.49984C74.5 5.49984 80.5 14.4997 90.5 7.99978C100.5 1.49984 102 19.9998 114.5 25.9998"
+                        stroke="#28C165"
+                      />
+                      <defs>
+                        <linearGradient
+                          id="paint0_linear_1_149"
+                          x1="57.75"
+                          y1="-3.50024"
+                          x2="57.75"
+                          y2="39.4998"
+                          gradientUnits="userSpaceOnUse"
+                        >
+                          <stop stop-color="#5FDF92" />
+                          <stop
+                            offset="0.0001"
+                            stop-color="#5FDF92"
+                            stop-opacity="0.8"
+                          />
+                          <stop
+                            offset="1"
+                            stop-color="#C4C4C4"
+                            stop-opacity="0"
+                          />
+                          <stop
+                            offset="1"
+                            stop-color="#C4C4C4"
+                            stop-opacity="0"
+                          />
+                          <stop
+                            offset="1"
+                            stop-color="#5FDF92"
+                            stop-opacity="0"
+                          />
+                        </linearGradient>
+                      </defs>
+                    </svg>
+                  </td>
+                </tr>
+                <tr class="coins">
+                  <td>
+                    <img
+                      class="pe-2"
+                      src="assets/images/ethereum.png"
+                      alt=""
+                    />Ethereum
+                  </td>
+                  <td class="minus">- $3,480.65</td>
+                  <td>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="115"
+                      height="44"
+                      viewBox="0 0 115 44"
+                      fill="none"
+                    >
+                      <path
+                        d="M20 17.9999C14.2991 25.4926 2 25.4216 1 22.9216V43.4999H114V3.49993C101.5 -2.50007 103 4.92159 93 11.4215C83 17.9215 71 -11.5001 59 6.99994C50.8145 19.6193 37.5 -5.00006 20 17.9999Z"
+                        fill="url(#paint0_linear_1_164)"
+                      />
+                      <path
+                        d="M1 22.9216C2 25.4216 14.2991 25.4926 20 17.9999C37.5 -5.00006 50.8145 19.6193 59 6.99994C71 -11.5001 83 17.9215 93 11.4215C103 4.92159 101.5 -2.50007 114 3.49993"
+                        stroke="#F4574D"
+                      />
+                      <defs>
+                        <linearGradient
+                          id="paint0_linear_1_164"
+                          x1="57.5"
+                          y1="0.798828"
+                          x2="57.5"
+                          y2="40.9999"
+                          gradientUnits="userSpaceOnUse"
+                        >
+                          <stop stop-color="#FFBDBD" />
+                          <stop
+                            offset="1"
+                            stop-color="#C4C4C4"
+                            stop-opacity="0"
+                          />
+                        </linearGradient>
+                      </defs>
+                    </svg>
+                  </td>
+                </tr>
+                <tr class="coins">
+                  <td>
+                    <img class="pe-2" src="assets/images/btc.png" alt="" />
+                    Bitcoin
+                  </td>
+                  <td class="plus">+ $43,180.13</td>
+                  <td>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="115"
+                      height="42"
+                      viewBox="0 0 115 42"
+                      fill="none"
+                    >
+                      <path
+                        d="M21 14.4998C12.6274 10.1939 2 28.4998 1 25.9998V41.9998H114.5V25.9998C102 19.9998 100.5 1.49984 90.5 7.99978C80.5 14.4997 74.5 5.49984 60 1.49984C45.5 -2.50016 38.5 23.4997 21 14.4998Z"
+                        fill="url(#paint0_linear_1_149)"
+                      />
+                      <path
+                        d="M1 25.9998C2 28.4998 12.6274 10.1939 21 14.4998C38.5 23.4997 45.5 -2.50016 60 1.49984C74.5 5.49984 80.5 14.4997 90.5 7.99978C100.5 1.49984 102 19.9998 114.5 25.9998"
+                        stroke="#28C165"
+                      />
+                      <defs>
+                        <linearGradient
+                          id="paint0_linear_1_149"
+                          x1="57.75"
+                          y1="-3.50024"
+                          x2="57.75"
+                          y2="39.4998"
+                          gradientUnits="userSpaceOnUse"
+                        >
+                          <stop stop-color="#5FDF92" />
+                          <stop
+                            offset="0.0001"
+                            stop-color="#5FDF92"
+                            stop-opacity="0.8"
+                          />
+                          <stop
+                            offset="1"
+                            stop-color="#C4C4C4"
+                            stop-opacity="0"
+                          />
+                          <stop
+                            offset="1"
+                            stop-color="#C4C4C4"
+                            stop-opacity="0"
+                          />
+                          <stop
+                            offset="1"
+                            stop-color="#5FDF92"
+                            stop-opacity="0"
+                          />
+                        </linearGradient>
+                      </defs>
+                    </svg>
+                  </td>
+                </tr>
+                <tr class="coins">
+                  <td>
+                    <img
+                      class="pe-2"
+                      src="assets/images/btc.png"
+                      alt=""
+                    />Bitcoin
+                  </td>
+                  <td class="plus">+ $43,180.13</td>
+                  <td>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="115"
+                      height="42"
+                      viewBox="0 0 115 42"
+                      fill="none"
+                    >
+                      <path
+                        d="M21 14.4998C12.6274 10.1939 2 28.4998 1 25.9998V41.9998H114.5V25.9998C102 19.9998 100.5 1.49984 90.5 7.99978C80.5 14.4997 74.5 5.49984 60 1.49984C45.5 -2.50016 38.5 23.4997 21 14.4998Z"
+                        fill="url(#paint0_linear_1_149)"
+                      />
+                      <path
+                        d="M1 25.9998C2 28.4998 12.6274 10.1939 21 14.4998C38.5 23.4997 45.5 -2.50016 60 1.49984C74.5 5.49984 80.5 14.4997 90.5 7.99978C100.5 1.49984 102 19.9998 114.5 25.9998"
+                        stroke="#28C165"
+                      />
+                      <defs>
+                        <linearGradient
+                          id="paint0_linear_1_149"
+                          x1="57.75"
+                          y1="-3.50024"
+                          x2="57.75"
+                          y2="39.4998"
+                          gradientUnits="userSpaceOnUse"
+                        >
+                          <stop stop-color="#5FDF92" />
+                          <stop
+                            offset="0.0001"
+                            stop-color="#5FDF92"
+                            stop-opacity="0.8"
+                          />
+                          <stop
+                            offset="1"
+                            stop-color="#C4C4C4"
+                            stop-opacity="0"
+                          />
+                          <stop
+                            offset="1"
+                            stop-color="#C4C4C4"
+                            stop-opacity="0"
+                          />
+                          <stop
+                            offset="1"
+                            stop-color="#5FDF92"
+                            stop-opacity="0"
+                          />
+                        </linearGradient>
+                      </defs>
+                    </svg>
+                  </td>
+                </tr>
+              </table>
+            </div>
+          </div>
+          <div class="recent col-12 col-xl-4">
+            <div class="d-flex justify-content-between">
+              <span class="col-header">💎 Recently Added</span>
+              <a class="more-link" href="">More ></a>
+            </div>
+            <div class="graphs">
+              <table style="width: 100%">
+                <tr>
+                  <th class="thead text-black-50">Name</th>
+                  <th class="thead text-black-50">Price</th>
+                  <th class="thead text-black-50">Chart</th>
+                </tr>
+                <tr class="coins">
+                  <td>
+                    <img
+                      class="pe-2"
+                      src="assets/images/btc.png"
+                      alt=""
+                    />Bitcoin
+                  </td>
+                  <td class="plus">+ $43,180.13</td>
+                  <td>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="115"
+                      height="42"
+                      viewBox="0 0 115 42"
+                      fill="none"
+                    >
+                      <path
+                        d="M21 14.4998C12.6274 10.1939 2 28.4998 1 25.9998V41.9998H114.5V25.9998C102 19.9998 100.5 1.49984 90.5 7.99978C80.5 14.4997 74.5 5.49984 60 1.49984C45.5 -2.50016 38.5 23.4997 21 14.4998Z"
+                        fill="url(#paint0_linear_1_149)"
+                      />
+                      <path
+                        d="M1 25.9998C2 28.4998 12.6274 10.1939 21 14.4998C38.5 23.4997 45.5 -2.50016 60 1.49984C74.5 5.49984 80.5 14.4997 90.5 7.99978C100.5 1.49984 102 19.9998 114.5 25.9998"
+                        stroke="#28C165"
+                      />
+                      <defs>
+                        <linearGradient
+                          id="paint0_linear_1_149"
+                          x1="57.75"
+                          y1="-3.50024"
+                          x2="57.75"
+                          y2="39.4998"
+                          gradientUnits="userSpaceOnUse"
+                        >
+                          <stop stop-color="#5FDF92" />
+                          <stop
+                            offset="0.0001"
+                            stop-color="#5FDF92"
+                            stop-opacity="0.8"
+                          />
+                          <stop
+                            offset="1"
+                            stop-color="#C4C4C4"
+                            stop-opacity="0"
+                          />
+                          <stop
+                            offset="1"
+                            stop-color="#C4C4C4"
+                            stop-opacity="0"
+                          />
+                          <stop
+                            offset="1"
+                            stop-color="#5FDF92"
+                            stop-opacity="0"
+                          />
+                        </linearGradient>
+                      </defs>
+                    </svg>
+                  </td>
+                </tr>
+                <tr class="coins">
+                  <td>
+                    <img
+                      class="pe-2"
+                      src="assets/images/ethereum.png"
+                      alt=""
+                    />Ethereum
+                  </td>
+                  <td class="minus">- $3,480.65</td>
+                  <td>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="115"
+                      height="44"
+                      viewBox="0 0 115 44"
+                      fill="none"
+                    >
+                      <path
+                        d="M20 17.9999C14.2991 25.4926 2 25.4216 1 22.9216V43.4999H114V3.49993C101.5 -2.50007 103 4.92159 93 11.4215C83 17.9215 71 -11.5001 59 6.99994C50.8145 19.6193 37.5 -5.00006 20 17.9999Z"
+                        fill="url(#paint0_linear_1_164)"
+                      />
+                      <path
+                        d="M1 22.9216C2 25.4216 14.2991 25.4926 20 17.9999C37.5 -5.00006 50.8145 19.6193 59 6.99994C71 -11.5001 83 17.9215 93 11.4215C103 4.92159 101.5 -2.50007 114 3.49993"
+                        stroke="#F4574D"
+                      />
+                      <defs>
+                        <linearGradient
+                          id="paint0_linear_1_164"
+                          x1="57.5"
+                          y1="0.798828"
+                          x2="57.5"
+                          y2="40.9999"
+                          gradientUnits="userSpaceOnUse"
+                        >
+                          <stop stop-color="#FFBDBD" />
+                          <stop
+                            offset="1"
+                            stop-color="#C4C4C4"
+                            stop-opacity="0"
+                          />
+                        </linearGradient>
+                      </defs>
+                    </svg>
+                  </td>
+                </tr>
+                <tr class="coins">
+                  <td>
+                    <img class="pe-2" src="assets/images/btc.png" alt="" />
+                    Bitcoin
+                  </td>
+                  <td class="plus">+ $43,180.13</td>
+                  <td>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="115"
+                      height="42"
+                      viewBox="0 0 115 42"
+                      fill="none"
+                    >
+                      <path
+                        d="M21 14.4998C12.6274 10.1939 2 28.4998 1 25.9998V41.9998H114.5V25.9998C102 19.9998 100.5 1.49984 90.5 7.99978C80.5 14.4997 74.5 5.49984 60 1.49984C45.5 -2.50016 38.5 23.4997 21 14.4998Z"
+                        fill="url(#paint0_linear_1_149)"
+                      />
+                      <path
+                        d="M1 25.9998C2 28.4998 12.6274 10.1939 21 14.4998C38.5 23.4997 45.5 -2.50016 60 1.49984C74.5 5.49984 80.5 14.4997 90.5 7.99978C100.5 1.49984 102 19.9998 114.5 25.9998"
+                        stroke="#28C165"
+                      />
+                      <defs>
+                        <linearGradient
+                          id="paint0_linear_1_149"
+                          x1="57.75"
+                          y1="-3.50024"
+                          x2="57.75"
+                          y2="39.4998"
+                          gradientUnits="userSpaceOnUse"
+                        >
+                          <stop stop-color="#5FDF92" />
+                          <stop
+                            offset="0.0001"
+                            stop-color="#5FDF92"
+                            stop-opacity="0.8"
+                          />
+                          <stop
+                            offset="1"
+                            stop-color="#C4C4C4"
+                            stop-opacity="0"
+                          />
+                          <stop
+                            offset="1"
+                            stop-color="#C4C4C4"
+                            stop-opacity="0"
+                          />
+                          <stop
+                            offset="1"
+                            stop-color="#5FDF92"
+                            stop-opacity="0"
+                          />
+                        </linearGradient>
+                      </defs>
+                    </svg>
+                  </td>
+                </tr>
+                <tr class="coins">
+                  <td>
+                    <img
+                      class="pe-2"
+                      src="assets/images/btc.png"
+                      alt=""
+                    />Bitcoin
+                  </td>
+                  <td class="plus">+ $43,180.13</td>
+                  <td>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="115"
+                      height="42"
+                      viewBox="0 0 115 42"
+                      fill="none"
+                    >
+                      <path
+                        d="M21 14.4998C12.6274 10.1939 2 28.4998 1 25.9998V41.9998H114.5V25.9998C102 19.9998 100.5 1.49984 90.5 7.99978C80.5 14.4997 74.5 5.49984 60 1.49984C45.5 -2.50016 38.5 23.4997 21 14.4998Z"
+                        fill="url(#paint0_linear_1_149)"
+                      />
+                      <path
+                        d="M1 25.9998C2 28.4998 12.6274 10.1939 21 14.4998C38.5 23.4997 45.5 -2.50016 60 1.49984C74.5 5.49984 80.5 14.4997 90.5 7.99978C100.5 1.49984 102 19.9998 114.5 25.9998"
+                        stroke="#28C165"
+                      />
+                      <defs>
+                        <linearGradient
+                          id="paint0_linear_1_149"
+                          x1="57.75"
+                          y1="-3.50024"
+                          x2="57.75"
+                          y2="39.4998"
+                          gradientUnits="userSpaceOnUse"
+                        >
+                          <stop stop-color="#5FDF92" />
+                          <stop
+                            offset="0.0001"
+                            stop-color="#5FDF92"
+                            stop-opacity="0.8"
+                          />
+                          <stop
+                            offset="1"
+                            stop-color="#C4C4C4"
+                            stop-opacity="0"
+                          />
+                          <stop
+                            offset="1"
+                            stop-color="#C4C4C4"
+                            stop-opacity="0"
+                          />
+                          <stop
+                            offset="1"
+                            stop-color="#5FDF92"
+                            stop-opacity="0"
+                          />
+                        </linearGradient>
+                      </defs>
+                    </svg>
+                  </td>
+                </tr>
+              </table>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="trade-section">
+      <div class="container trade">
+        <div class="row align-items-center">
+          <div class="col-12 order-2 col-xl-6 order-xl-1 ps-5 text-center">
+            <h2>Buy & trade on the original crypto exchange.</h2>
+            <p class="my-4 text-black-50">
+              Buy now and get 40% extra bonus Minimum pre-sale amount 25 Crypto
+              Coin. We accept BTC crypto-currency
+            </p>
+              <div class="trade-div d-flex align-items-center gap-3 text-center justify-content-center">
+                <div
+                  class="d-flex align-items-center justify-content-between px-3 input-trade"
+                >
+                  <span class="py-2 px-3">Amount</span>
+                  <input type="number" />
+                </div>
+                <div class="dropdown dropdown-trade align-items-center px-3">
+                  <button
+                    class="btn btn-outline dropdown-toggle"
+                    type="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    <img src="assets/images/us.jpg" alt="" /> <span>USD</span>
+                  </button>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Action</a></li>
+                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                    <li>
+                      <a class="dropdown-item" href="#">Something else here</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div
+                class="trade-div d-flex align-items-center gap-3 my-3 text-center justify-content-center"
+              >
+                <div
+                  class="d-flex align-items-center justify-content-between px-3 input-trade"
+                >
+                  <span class="get-span py-2 px-3">Amount</span>
+                  <input type="number" />
+                </div>
+                <div class="dropdown dropdown-trade align-items-center px-3">
+                  <button
+                    class="btn btn-outline dropdown-toggle"
+                    type="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    <img src="assets/images/us.jpg" alt="" /> <span>USD</span>
+                  </button>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Action</a></li>
+                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                    <li>
+                      <a class="dropdown-item" href="#">Something else here</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+          </div>
+          <div class="col-12 order-1 col-xl-6 order-xl-2 text-center">
+            <img
+              class="img-fluid money-circle"
+              src="assets/images/money-circle.jpg"
+              alt=""
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="partner-section">
+      <div class="container mt-5">
+        <div
+          class="d-flex flex-column align-items-center justify-content-center"
+        >
+          <h4>Trusted Partners Worldwide</h4>
+          <p class="text-black-50">
+            We're partners with countless major organisations around the globe
+          </p>
+          <div class="row text-center mt-3">
+            <div class="col-12 col-md-6 col-lg-3">
+              <img class="brand" src="assets/images/brand1.svg" alt="" />
+            </div>
+            <div class="col-12 col-md-6 col-lg-3">
+              <img class="brand" src="assets/images/brand1.svg" alt="" />
+            </div>
+            <div class="col-12 col-md-6 col-lg-3">
+              <img class="brand" src="assets/images/brand1.svg" alt="" />
+            </div>
+            <div class="col-12 col-md-6 col-lg-3">
+              <img class="brand" src="assets/images/brand1.svg" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="card-section">
+      <div class="container mt-5">
+        <div class="row d-flex align-items-center justify-content-center">
+          <div class="img-col col-12 col-md-6">
+            <img class="img-fluid" src="assets/images/credit-card.svg" alt="" />
+          </div>
+          <div class="col-12 col-md-6">
+            <h2 class="pb-3">
+              Introducing the <span class="nefa-gradient"> NEFA</span> Credit
+              Card
+            </h2>
+            <p class="text-black-50">
+              Subject to cardholder and rewards terms which will be available at
+              application.
+            </p>
+            <ul>
+              <li><p>Up to 3% back on purchases</p></li>
+              <li><p>Earn rewards in bitcoin or any crypto on NEFA</p></li>
+              <li><p>No annual fee</p></li>
+            </ul>
+            <button class="btn btn-outline-primary rounded-pill p-3 px-4 me-4">
+              Join the waitlist
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="tools-section">
+      <div class="container mt-5">
+        <div class="row mt-3 d-flex justify-content-center align-items-center">
+          <div class="text-col col-md-6 ps-5">
+            <h2 class="pb-4">Advanced Trading <span> Tools</span></h2>
+            <p class="sub-heading">
+              Professional Access, Non-stop Availability
+            </p>
+            <p class="text-black-50">
+              We provide premium access to crypto trading for both individuals
+              and institutions through high liquidity, reliable order execution
+              and constant uptime.
+            </p>
+            <p class="sub-heading">A Range of Powerful Apis</p>
+            <p class="text-black-50">
+              Set up your own trading interface or deploy your algorithmic
+              strategy with our high-performance FIX and HTTP APIs. Connect to
+              our WebSocket for real-time data streaming.
+            </p>
+            <p class="sub-heading">Customer Support</p>
+            <p class="text-black-50">
+              Premium 24/7 support available to all customers worldwide by phone
+              or email. Dedicated account managers for partners.
+            </p>
+            <div class="buttons d-flex align-items-center">
+              <button class="btn btn-outline-primary rounded-pill me-4">
+                Get Started
+              </button>
+              <a href="">Learn More</a>
+            </div>
+          </div>
+          <div class="col-md-6 d-none d-md-block ">
+            <img class="img-fluid" src="assets/images/tools.svg" alt="" />
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="cashbox-section">
+      <div class="container mt-5">
+        <div class="row d-flex align-items-center justify-content-center">
+          <div class="col-md-6 ">
+            <img class="img-fluid" src="assets/images/cashbox.svg" alt="" />
+          </div>
+          <div class="col-md-6">
+            <h2 class="pb-4">Industry-leading security from day one</h2>
+            <p class="sub-heading">Safety, security and compliance</p>
+            <p class="text-black-50">
+              NEFA is a licensed New York trust company that undergoes regular
+              bank exams and is subject to the cybersecurity audits conducted by
+              the New York Department of Financial Services. Learn more about
+              our commitment to security.
+            </p>
+            <p class="sub-heading">Hardware security keys</p>
+            <p class="text-black-50">
+              With NEFA you can secure your account with a hardware security key
+              via WebAuthn.
+            </p>
+            <p class="sub-heading">SOC Certifications</p>
+            <p class="text-black-50">
+              NEFA is SOC 1 Type 2 and SOC 2 Type 2 compliant. We are the
+              world’s first cryptocurrency exchange and custodian to complete
+              these exams.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="get-started">
+      <div class="container mt-5">
+        <h2 class="text-center">Get started in just a few minutes</h2>
+        <div class="row py-5">
+          <div
+            class="col-12 col-md-4 d-flex align-items-center justify-content-center flex-column text-center px-3"
+          >
+            <div class="images">
+              <img class="arrow" src="assets/images/arrow.svg" alt="" />
+              <img class="img-fluid" src="assets/images/crypto.png" alt="" />
+            </div>
+            <h4>Sign Up</h4>
+            <p class="text-black-50">
+              Buy Bitcoin or Ethereum, then securely store it in your Wallet or
+              send it on easily to friends
+            </p>
+          </div>
+          <div
+            class="col-12 col-md-4 d-flex align-items-center justify-content-center flex-column text-center px-3"
+          >
+            <div class="images">
+              <img class="arrow" src="assets/images/arrow.svg" alt="" />
+              <img class="img-fluid" src="assets/images/fund.png" alt="" />
+            </div>
+            <h4>Fund</h4>
+            <p class="text-black-50">
+              Choose your preferred payment method such as bank transfer or
+              credit card to top up your NEFA Wallet
+            </p>
+          </div>
+          <div
+            class="col-12 col-md-4 d-flex align-items-center justify-content-center flex-column text-center px-3"
+          >
+            <img class="img-fluid" src="assets/images/buy.png" alt="" />
+            <h4>Buy Crypto</h4>
+            <p class="text-black-50">
+              Sign up for your free NEFA Wallet on web, iOS or Android and
+              follow our easy process to set up your profile
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="wallet-section">
+      <div class="container mt-4">
+        <div class="row d-flex align-items-center">
+          <div class="col-md-6">
+            <img class="img-fluid" src="assets/images/wallet.png" alt="" />
+          </div>
+          <div class="col-md-6">
+            <span class="support text-uppercase">support</span>
+            <h2>Frequently asked questions</h2>
+            <h5>Why should I choose NEFA?</h5>
+            <p class="text-black-50">
+              We're industry pioneers, having been in the cryptocurrency
+              industry since 2016. We've facilitated more than 21 billion USD
+              worth of transactions on our exchange for customers in over 40
+              countries. Today, we're trusted by over 8 million customers around
+              the world and have received praise for our easy-to-use app, secure
+              wallet, and range of features.
+            </p>
+            <div class="accordion accordion-flush" id="accordionFlushExample">
+              <div class="accordion-item">
+                <h2 class="accordion-header py-2">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseOne"
+                    aria-expanded="false"
+                    aria-controls="flush-collapseOne"
+                  >
+                    How secure is NEFA?
+                  </button>
+                </h2>
+                <div
+                  id="flush-collapseOne"
+                  class="accordion-collapse collapse"
+                  data-bs-parent="#accordionFlushExample"
+                >
+                  <div class="accordion-body">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Repellat aliquid laudantium unde consectetur! Corporis ipsum
+                    laudantium nam illum ipsam officia.
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header py-2">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseTwo"
+                    aria-expanded="false"
+                    aria-controls="flush-collapseTwo"
+                  >
+                    Do I have to buy a whole Bitcoin?
+                  </button>
+                </h2>
+                <div
+                  id="flush-collapseTwo"
+                  class="accordion-collapse collapse"
+                  data-bs-parent="#accordionFlushExample"
+                >
+                  <div class="accordion-body">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut
+                    ea ipsam eveniet ut delectus assumenda eius necessitatibus
+                    qui repellendus error.
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header py-2">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseThree"
+                    aria-expanded="false"
+                    aria-controls="flush-collapseThree"
+                  >
+                    How do I actually buy Bitcoin?
+                  </button>
+                </h2>
+                <div
+                  id="flush-collapseThree"
+                  class="accordion-collapse collapse"
+                  data-bs-parent="#accordionFlushExample"
+                >
+                  <div class="accordion-body">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Quas esse rerum eum minus. Consequatur eum odio sapiente
+                    itaque unde. Ex?
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <div class="back-to-top d-flex justify-content-center">
+      <a href="#page-top">
+        <button type="button" class="btn">
+          <span class="content px-2"
+            >Back to top<svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="16"
+              height="16"
+              fill="currentColor"
+              class="bi bi-arrow-up"
+              viewBox="0 0 16 16"
+            >
+              <path
+                fill-rule="evenodd"
+                d="M8 15a.5.5 0 0 0 .5-.5V2.707l3.146 3.147a.5.5 0 0 0 .708-.708l-4-4a.5.5 0 0 0-.708 0l-4 4a.5.5 0 1 0 .708.708L7.5 2.707V14.5a.5.5 0 0 0 .5.5z"
+              /></svg
+          ></span></button
+      ></a>
+    </div>
+    <section class="footer container">
+      <div class="row mt-4 justify-content-center">
+        <div class="logo-footer text-center col-12 col-lg-2 px-3">
+          <img src="assets/images/nefa-logo.svg" alt="" />
+        </div>
+        <div class="col-12 col-lg-7">
+          <div class="row">
+            <div class="col-12 col-md-4">
+              <ul>
+                <li>Buy Crypto</li>
+                <li>Exchanges</li>
+                <li>Watchlist</li>
+                <li>Portfolio</li>
+                <li>NFT</li>
+              </ul>
+            </div>
+            <div class="col-12 col-md-4">
+              <ul>
+                <li>Products</li>
+                <li>Abous Us</li>
+                <li>Careers</li>
+                <li>Blog</li>
+                <li>Security</li>
+              </ul>
+            </div>
+            <div class="col-12 col-md-4">
+              <ul>
+                <li>Help Center</li>
+                <li>Contact Us</li>
+                <li>System Status</li>
+                <li>Area of Avaibility</li>
+                <li>Privacy Policy</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-lg-3">
+          <div class="contact d-flex flex-column justify-content-start">
+            <span>Newsletter</span>
+            <p class="text-black-50">
+              Never miss anything crypto when you're on the go
+            </p>
+            <div class="form-floating d-flex flex-row gap-3 mb-3">
+              <input
+                type="email"
+                class="form-control"
+                id="floatingInput"
+                placeholder="name@example.com"
+              />
+              <label for="floatingInput">Email address</label>
+              <button type="button" class="btn btn-primary p-3">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="16"
+                  height="16"
+                  fill="currentColor"
+                  class="bi bi-arrow-right"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"
+                  />
+                </svg>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <span
+        class="d-flex text-black-50 align-items-center justify-content-center"
+      >
+        © Copyright Mert Dogruluk 2022 All rights reserved</span
+      >
+    </section>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
